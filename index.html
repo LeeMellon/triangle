@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Triangle Checker</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Triangle Side Checker</h2>
+    </div>
+    <h5>Enter the sides of your triangle in integers from smallest to largest</h5>
+    <form id="sides">
+      <div class="form-group">
+        <label for="side1">1st side:</label>
+        <input id="side1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="side2">2nd side:</label>
+        <input id="side2" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="side3">3rd side:</label>
+        <input id="side3" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn-default" id="btn">check</button>
+    </form>
+
+  <div>
+     <h3 id="answer">Your triangle is: </h3>
+  </div>
+</div>
+</body>
+
+</html>
